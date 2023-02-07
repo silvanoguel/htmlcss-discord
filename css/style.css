@@ -6,15 +6,25 @@
     box-sizing: border-box;
 }
 
+img {
+    max-width: 100%;
+}
+
+body {
+    font-family: Whitney, "Helvetica Neue", Helvetica, Arial, sans-serif;
+
+}
+
 /* HEADER */
 
 header {
     display: flex;
     justify-content: center;
     align-items: center;
+    background-color: #255EE9;
     /* DEBUG */
     height: 100px;
-    background-color: lightskyblue;
+    
 }
 
 .menu-banner {
@@ -25,15 +35,28 @@ header {
     padding: 10px;
     /* DEBUG */
     height: 30px;
-    background-color: orange;
+    /* background-color: orange; */
 }
+
 
 .header-nav ul {
     display: flex;
-    gap: 10px;
+    gap: 20px;
     list-style-type: none;
 }
 
+.header-nav a {
+    text-decoration: none;
+    color: white;
+}
+
+button {
+    border-radius: 50px;
+    padding: 10px;
+    border-color: white;
+    background-color: white;
+}
+}
 
 /* MAIN */
 
