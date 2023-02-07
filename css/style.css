@@ -140,10 +140,11 @@ p {
 .section-5 {
     display: flex;
     /* Debug */
-    height: 700px;
+    height: 800px;
     background-color: #F6F6F6;
     justify-content: center;
     align-items: center;
+    padding-bottom: 200px;
 }
 
 .blue-square {
@@ -276,4 +277,12 @@ p {
 
 .main-title { 
     color: #7289DA;
+}
+
+.reg-button button {
+    border-radius: 50px;
+    padding: 10px;
+    border-color: #7289DA;
+    background-color: #7289DA;
+    color: white;
 }
