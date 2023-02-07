@@ -98,6 +98,11 @@ button {
     align-items: center;
 }
 
+p {
+    line-height: 1.5;
+    margin-top: 3rem;
+}
+
 .content {
     margin: 0 auto;
     /* * Debug * */
@@ -108,7 +113,7 @@ button {
 .section-2 {
     display: flex;
     /* Debug */
-    height: 400px;
+    height: 600px;
     background-color: white;
     justify-content: center;
     align-items: center;
@@ -144,7 +149,7 @@ button {
 .blue-square {
     display: flex;
     /* Debug */
-    background-color: lightskyblue;
+    /* background-color: lightskyblue; */
     height: 300px;
     width: 800px;
     justify-content: center;
@@ -154,10 +159,11 @@ button {
 .rose-square {
     display: flex;
     /* Debug */
-    background-color: lightsalmon;
+    /* background-color: lightsalmon; */
     height: 300px;
-    width: 600px;
+    width: 300px;
     justify-content: center;
+    flex-direction: column;
 }
 
 
