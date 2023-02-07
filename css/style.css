@@ -57,6 +57,32 @@ button {
     background-color: white;
 }
 
+.download-button button {
+    border-radius: 50px;
+    padding: 10px;
+    border-color: white;
+    background-color: white;
+}
+
+.open-button button {
+    border-radius: 50px;
+    padding: 10px;
+    border-color: #23272A;
+    background-color: #23272A;
+    color: white;
+}
+
+.buttons {
+    gap: 20px;
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+.intro-par {
+    line-height: 1.5rem;
+    margin-top: 2rem;
+}
 
 /* MAIN */
 
@@ -64,11 +90,12 @@ button {
     display: flex;
     background-image: url(../img/jumbo.png);
     background-repeat: no-repeat;
-    height: 400px;
+    height: 600px;
     background-position: center;
     background-size: cover;
     color: white;
     justify-content: center;
+    align-items: center;
 }
 
 .content {
@@ -76,8 +103,7 @@ button {
     /* * Debug * */
     width: 50%;
     height: 150px;
-    background-color: blueviolet;
-    justify-content: center;
+    text-align: center;
 }
 .section-2 {
     display: flex;
