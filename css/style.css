@@ -203,7 +203,6 @@ p {
     /* background-color: darkslategrey;
      */
     background-color: #23272A;
-    border: 1px solid white;
 }
 
 /* Footer top */
@@ -253,6 +252,8 @@ p {
 /* debug */
 .footer-bottom .container .flex {
     min-height: 40px;
+    border-top: 1px solid #7289DA;
+    padding-top: 20px;
 }
 
 /* Utilities */
